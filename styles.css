@@ -272,10 +272,6 @@ body {
   left: 19%;
 }
 
-.FAQ__accordian {
-  width: 100%;
-}
-
 .FAQ__title {
   display: flex;
   justify-content: space-between;
@@ -288,11 +284,11 @@ body {
   padding: 0.8em 2.2em 0.8em 1.2em;
   position: relative;
   overflow: visible;
-  width: 700px;
+  width: 100vh;
 }
 
 .FAQ__visible {
-  width: 100%;
+  width: 100vh;
   justify-content: space-between;
   font-size: 22px;
   background-color: #303030;
@@ -317,10 +313,6 @@ body {
   text-align: center;
   font-weight: 600;
   margin: 1rem 3rem;
-}
-.FAQ__visible {
-  width: 700px;
-  box-sizing: border-box;
 }
 
 .FAQ__list {
@@ -428,6 +420,7 @@ footer {
     font-weight: 500;
     letter-spacing: 1px;
   }
+
   .FAQ__list {
     padding: 1rem 5rem;
   }
@@ -515,6 +508,7 @@ footer {
   .poster__container {
     width: 20%;
   }
+
   .FAQ__list {
     padding: 1rem 25rem;
   }
